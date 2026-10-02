@@ -1,7 +1,7 @@
 # Kalman-Filtered Pairs Trading
 
 A mean-reversion pairs-trading strategy on two cointegrated equities, 
-from statistical tests to a backtest with realistic transaction costs.
+from statistical tests to a 10-year backtest with transaction costs.
 
 ## The Idea
 
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 python kalman_strategy.py
 ```
 
-Price data is cached in `data/`. To regenerate, uncomment the `yf.download` lines in `exploration.ipynb` or `kalman_strategy.py`.
+Price data is cached in `data/`. To regenerate from Yahoo Finance, delete the cached CSVs and re-run either `exploration.ipynb` or `kalman_strategy.py`.
 
 ## Discussion
 
