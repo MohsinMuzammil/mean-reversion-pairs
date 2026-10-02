@@ -69,7 +69,7 @@ costs (10 bps).
 
 ## Files
 
-- `notebooks/exploration.ipynb` — cointegration analysis (ADF, CADF, Johansen)
+- `exploration.ipynb` — cointegration analysis (ADF, CADF, Johansen)
 - `kalman_strategy.py` — Kalman filter, signals, and backtest
 - `figures/kalman_panels.png` — diagnostic chart
 
